@@ -4,9 +4,28 @@
 
 请在 `dqn/agent.py` 中实现 DQN 算法的关键部分，**主要是 `update()` 方法**。完成后，你可以运行训练脚本 `train.py` 来训练模型，并使用 `evaluate.py` 评估训练结果。
 
----
+## 获取作业仓库
 
-## 环境准备（从 conda 创建环境开始——逐步执行）
+1. **点击链接 → 自动创建私有仓库，如 studentA-DQN-Assignment。**
+
+2. **在本地执行：**
+```bash
+git clone https://github.com/chendy498/dqn.git
+git checkout -b dev
+```
+
+3. **修改 agent.py 的 TODO 部分。**
+
+4. **提交并推送：**
+```bash
+git add .
+git commit -m "Implement DQN update"
+git push origin dev
+```
+
+5. **提交 pull request 到 `main` 分支。**
+---
+## 环境准备
 
 以下步骤以 Windows/macOS/Linux 通用命令为准。请在终端（Anaconda Prompt 或 系统终端）中逐行执行。
 
